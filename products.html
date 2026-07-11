@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📦 Product Details</h1>
+
+    <form id="productForm">
+
+        <label>Product ID</label>
+        <input type="text" id="productId" placeholder="Enter Product ID" required>
+
+        <label>Product Name</label>
+        <input type="text" id="productName" placeholder="Enter Product Name" required>
+
+        <label>Category</label>
+        <input type="text" id="category" placeholder="Enter Category" required>
+
+        <label>Quantity</label>
+        <input type="number" id="quantity" placeholder="Enter Quantity" required>
+
+        <label>Price</label>
+        <input type="number" id="price" placeholder="Enter Price" required>
+
+        <label>Supplier Name</label>
+        <input type="text" id="supplier" placeholder="Enter Supplier Name" required>
+
+        <button type="button" onclick="addProduct()">Add Product</button>
+
+    </form>
+
+    <br>
+
+    <a href="index.html">
+        <button>🏠 Back to Home</button>
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
